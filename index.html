@@ -164,29 +164,24 @@
             </div>
             <!--FIM PRODUTO ITEM-->
             <!--PRODUTO ITEM-->
-            <div class="flex gap-2 w-full mb-8">
+            <div class="flex gap-2 w-full mb-16">
                 <img src="./assets/refri-2.png" alt="Guaraná Lata"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
 
-                <div class="w-full mb-12">
+                <div class="w-full">
                     <p class="font-bold">Guaraná lata</p>
 
-                    <div class="flex gap-2 items-center justify-between mt-5">
+                    <div class="flex gap-2 items-center justify-between mt-3">
                         <p class="font-bold text-lg">R$ 6.00</p>
 
-                        <button class="bg-gray-900 px-5 mb-10 rounded botaoAddNoCarrinho" data-name="Guaraná lata"
+                        <button class="bg-gray-900 px-5 rounded botaoAddNoCarrinho" data-name="Guaraná lata"
                             data-price="6.00">
                             <span class="text-white">Comprar</span>
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
                     </div>
-                    
                 </div>
-                
             </div>
-            <!--FIM PRODUTO ITEM-->
-
-
         </div>
         <!--FIM GRID BEBIDAS-->
 
@@ -216,8 +211,8 @@
                         <p class="font-bold">Endereço de entrega (Delivery R$ 3,00)</p>
                         <span class="text-red-500">Obs: Se não quer delivery, digite: Retirada</span>
 
-                        <input type="text" placeholder="Endereço completo ou retirada"
-                            id="inputEndereco" class="w-full border-2 p-2 rounded my-2 flex">
+                        <input type="text" placeholder="Endereço completo ou retirada" id="inputEndereco"
+                            class="w-full border-2 p-2 rounded my-2 flex">
 
                         <p class="bg-yellow-500 hidden from-neutral-950" id="enderecoAviso">
                             Digite o endereço de entrega ou digite sem entrega
@@ -239,16 +234,17 @@
     <!--FIM MENU-->
     <!--INICIO BUTTON CART FOOTER-->
     <footer class="bg-red-800 w-full flex items-center justify-center  flex-col pb-4 md: fixed bottom-0 h-32">
-        <button class="flex items-center bg-green-600 rounded px-4 py-4 text-white font-bold" id="botaoCarrinho" >
+        <button class="flex items-center bg-green-600 rounded px-4 py-4 text-white font-bold" id="botaoCarrinho">
             (<span id="contadorCarrinho">0</span>)
-             Enviar pedido por WhatsApp
+            Enviar pedido por WhatsApp
 
-            
+
         </button>
         <div class="flex flex-col items-center">
             <!--<p class="rounded-lg text-white flex items-center">Para: Açaíteria, Hamburgueria e Pizzaria</p>-->
 
-            <button type="button" id="contratar" class="text-black rounded py-2 mt-1 bg-yellow-500"><strong>Contrate para o seu negócio -> clique aqui!</strong></button>
+            <button type="button" id="contratar" class="text-black rounded py-2 mt-1 bg-yellow-500"><strong>Contrate
+                    para o seu negócio -> clique aqui!</strong></button>
         </div>
     </footer>
     <!--FIM BUTTON CART FOOTER-->
