@@ -168,19 +168,21 @@
                 <img src="./assets/refri-2.png" alt="Guaraná Lata"
                     class="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
 
-                <div class="w-full">
+                <div class="w-full mb-12">
                     <p class="font-bold">Guaraná lata</p>
 
                     <div class="flex gap-2 items-center justify-between mt-5">
                         <p class="font-bold text-lg">R$ 6.00</p>
 
-                        <button class="bg-gray-900 px-5 rounded botaoAddNoCarrinho" data-name="Guaraná lata"
+                        <button class="bg-gray-900 px-5 mb-10 rounded botaoAddNoCarrinho" data-name="Guaraná lata"
                             data-price="6.00">
                             <span class="text-white">Comprar</span>
                             <i class="fa fa-cart-plus text-lg text-white"></i>
                         </button>
                     </div>
+                    
                 </div>
+                
             </div>
             <!--FIM PRODUTO ITEM-->
 
@@ -222,7 +224,7 @@
                         </p>
 
                     </div>
-                    <div class="flex items-center justify-between mt-5 w-full">
+                    <div class="flex items-center justify-between mt-5 w-full h-2">
                         <button id="telaModalBotaoFechar">Fechar</button>
                         <button id="enviarPedidoBotao" class="bg-green-500 p-4 rounded py-1 text-white">Enviar
                             pedido</button>
@@ -236,8 +238,8 @@
 
     <!--FIM MENU-->
     <!--INICIO BUTTON CART FOOTER-->
-    <footer class="bg-red-800 w-full flex items-center justify-center  flex-col pb-4 md: fixed bottom-0 h-18">
-        <button class="flex items-center bg-green-600 rounded my-1 px-4 text-white font-bold" id="botaoCarrinho" >
+    <footer class="bg-red-800 w-full flex items-center justify-center  flex-col pb-4 md: fixed bottom-0 h-32">
+        <button class="flex items-center bg-green-600 rounded px-4 py-4 text-white font-bold" id="botaoCarrinho" >
             (<span id="contadorCarrinho">0</span>)
              >> ENVIAR PEDIDO
 
@@ -246,7 +248,7 @@
         <div class="flex flex-col items-center">
             <p class="rounded-lg text-white flex items-center">Para: Açaíteria, Hamburgueria e Pizzaria</p>
 
-            <button type="button" id="contratar" class="text-white my-2"><strong>Contrate clique aqui!</strong></button>
+            <button type="button" id="contratar" class="text-white ""><strong>Contrate clique aqui!</strong></button>
         </div>
     </footer>
     <!--FIM BUTTON CART FOOTER-->
