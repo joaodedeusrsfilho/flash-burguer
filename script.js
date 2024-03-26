@@ -91,10 +91,10 @@ function atualizarTelaModalItens() {
                </div>
             <div>
                 <button class="botaoAdicionar" data-name="${item.produtoNome}">
-                    (+1)
+                (+1)
                 </button>
                 <button class="botaoRemover px-4" data-name="${item.produtoNome}">
-                    (-1)
+                (-1)
                 </button>
             </div>
             
