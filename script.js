@@ -91,10 +91,10 @@ function atualizarTelaModalItens() {
                </div>
             <div>
                 <button class="botaoAdicionar" data-name="${item.produtoNome}">
-                    Adicionar +1 
+                    ( +1 )
                 </button>
                 <button class="botaoRemover px-4" data-name="${item.produtoNome}">
-                    Remover 1 
+                    ( -1 )
                 </button>
             </div>
             
@@ -202,7 +202,7 @@ enviarPedidoBotao.addEventListener("click", function (event) {
         return (
             `${itemAtual.quantidade} - ${itemAtual.produtoNome} R$ ${itemAtual.produtoPreco}`
         )
-    }).join(" | | ")//escolhendo || para aparecer entre as strings
+    }).join(" __ ")//escolhendo || para aparecer entre as strings
 
     const mensagem = encodeURIComponent(carrinhoItens)
     const telefone = "5599981402157"
@@ -213,7 +213,7 @@ enviarPedidoBotao.addEventListener("click", function (event) {
     const valorTotalCompra = valorTotal.innerText//obter conteudo do span
 
     //enviar para api do whatsapp com window.open
-    window.open(`https://wa.me/${telefone}?text= ${mensagem} || Valor Total: ${valorTotalCompra} mais 3 reais (delivery) => Cliente: ${nome} >>> Endereço: ${endereco}`, "_blank")
+    window.open(`https://wa.me/${telefone}?text= ${mensagem} __ Total: ${valorTotalCompra} mais 3 reais (delivery) __ Cliente: ${nome} __ Endereço: ${endereco}`, "_blank")
 
     //apos enviar a mensagem vamos limpar o carrinho de produto
     carrinhos = [] //array vazio
