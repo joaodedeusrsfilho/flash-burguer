@@ -87,7 +87,7 @@ function atualizarTelaModalItens() {
         <div class="flex justify-between mb-4">
             
             <div>
-                <p class="font-medium">0${item.quantidade} - ${item.produtoNome} - R$ ${item.produtoPreco}</p>
+                <p class="font-medium">0${item.quantidade}-${item.produtoNome}-R$ ${item.produtoPreco}</p>
                </div>
             <div>
                 <button class="botaoAdicionar" data-name="${item.produtoNome}">
