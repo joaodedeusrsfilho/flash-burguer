@@ -780,10 +780,6 @@ video {
   margin-top: 2.25rem;
 }
 
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
 .box-border {
   box-sizing: border-box;
 }
@@ -1461,6 +1457,14 @@ video {
   gap: 1.75rem;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-0 {
+  gap: 0px;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -2131,17 +2135,18 @@ video {
   padding-bottom: 0.25rem;
 }
 
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
 }
 
 .pb-4 {
   padding-bottom: 1rem;
-}
-
-.pt-1 {
-  padding-top: 0.25rem;
 }
 
 .text-left {
