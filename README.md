@@ -3,6 +3,6 @@
 ## Projeto profissional com TailwindCSS, JavaScript
 neste projeto você é capaz de vender seus produtos
 seja o seu negócio uma hamburgueria, Pizzaria ou qualquer outro Delivery
-## <a href="https://joaodedeusrsfilho.github.io/instagram-clone/" target="_blank"> Clique aqui para acessar o site
+## <a href="https://hamburgueria-sable-nu.vercel.app/" target="_blank"> Clique aqui para acessar o projeto online
 <img src="print.png">
 
